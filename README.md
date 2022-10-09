@@ -1,10 +1,10 @@
-# Projeto 03
+# Projeto 03 - Formulário
 
 ![preview](./.github/preview.png)
 
 > Programa Explorer
 
-Projeto construído no programa Explorer da Rocketseat 2022.
+Nesse projeto, realizei a construção de um formulário, tentanto utilizar ao máximos os inputs!
 
 [🔗 Clique aqui para acessar](https://kyochi7.github.io/projeto-web-3/)
 
