@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto 03 - Formulário</title>
+</head>
+<body>
+  <div class="page">
+    <header>
+        <h1>Crie e compartilhe
+          seu evento.</h1>
+        <p>O primeiro passo, é preencher esse
+          formulário de inscrição.</p>
+    </header>
+    <form>
+      <!--- SEÇÃO 1 --->
+      <fieldset>    
+          <div class="fieldset-wrapper">
+            <legend>Informações do Evento</legend>
+
+            <!--- Info Event --->
+            <div class="input-wrapper">
+              <label for="event-tittle">Título do evento <span>(mínimo 8 caracteres)</span></label>
+              <input type="text" name="event-tittle">
+            </div>
+            <!--- Link Event --->
+            <div class="input-wrapper">
+              <label for="event-url">Link do evento <span>(comece com https://)</span></label>            
+              <input type="url" name="event-url">
+            </div>
+            <!--- Contact Event --->
+            <div class="input-wrapper">
+              <label for="event-contact">Whatsapp para contato <span>(somente números)</span></label>
+              <input type="number" name="event-contact">
+            </div>
+            <!--- Info Extra Event --->
+            <div class="input-wrapper">
+              <label for="event-infos">Informações extras</label>
+              <textarea name="event-infos" cols="50" rows="10"></textarea>
+            </div>
+            <!--- Category Event --->
+            <div class="input-wrapper">
+              <label for="">Categoria</label>
+              <select name="" id="">
+                <option value="none"></option>
+                <option value="type">Tipo do evento</option>
+                <option value="Marie">Casamento</option>
+                <option value="">Formatura</option>
+              </select>
+            </div>
+          </div>           
+      </fieldset>
+      <!--- SEÇÃO 2 --->
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Privacidade</legend>
+          <!--- Email Event --->
+          <div class="input-wrapper">
+            <label for="">E-mail do administrador</label>
+            <input type="email" name="" id="">
+          </div>
+          <!--- Password Event --->
+          <div class="input-wrapper">
+            <label for="">Senha de acesso para os participantes</label>
+            <input type="password" name="" id="">
+          </div>
+          <!--- Checkbox Event --->
+          <div class="check-event">
+            <input type="checkbox" name="" id="check">
+            <label for="">Evento privado</label>
+          </div>
+        </div>
+      </fieldset>
+      <!--- SEÇÃO 3 --->
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Dia e hora</legend>
+
+          <div class="date-event">
+            <div class="date">
+              <label for="date">Data</label>
+              <input type="date" name="date">
+            </div>
+            <div class="hours1">
+              <label for="hours1">Das</label>
+              <input type="number" name="hours1">
+            </div>
+            <div class="hours2">
+              <label for="hours2">Até</label>
+              <input type="number" name="hours2">
+            </div>
+          </div>
+        </div>
+        
+      </fieldset>
+      
+      
+      
+    </form>
+    <div class="botao"><input type="submit" value="Salvar evento"></div>
+  </div>
+</body>
+</html>
